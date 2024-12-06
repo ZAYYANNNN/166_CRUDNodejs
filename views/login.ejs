@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="../public/css/login.css">
+<div class="signup-container">
+    <div class="card">
+        <div class="logo">
+            <img src="https://th.bing.com/th?id=OIP.sAo6uD1PUqlyooTC7Q1s8gHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Logo">
+        </div>
+        <h1>Login</h1>
+        <p>Please log in to your account.</p>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <input type="text" placeholder="Username" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" id="password" name="password" required>
+            </div>
+            <div class="desk">
+                <p>Belum punya akun? <a href="/signup">Daftar di sini</a>.</p>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        
+    </div>
+</div>
